@@ -8,7 +8,7 @@ public class KosheiTheDeathless {
     private Ocean1 ocean;
 
     @Autowired
-    public void setOcean(Ocean1 ocean) {
+    public KosheiTheDeathless(Ocean1 ocean) {
         this.ocean = ocean;
     }
 

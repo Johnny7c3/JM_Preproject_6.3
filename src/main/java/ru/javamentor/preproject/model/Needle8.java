@@ -8,7 +8,7 @@ public class Needle8 {
     private Death9 death;
 
     @Autowired
-    public Needle8(Death9 death) {
+    public void setDeath(Death9 death) {
         this.death = death;
     }
 
